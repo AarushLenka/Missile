@@ -411,11 +411,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 933569537}
-  thrust: 250
+  thrust: 200
   maxAngularVelocity: 50
   p: 0.1
   i: 0
-  d: 0
+  d: 0.001
 --- !u!54 &734191174
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158854baa37dac04ab332e13907a7f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.02
+  speed: 2
   radius: 10
 --- !u!135 &933569534
 SphereCollider:
@@ -588,7 +588,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &933569535
 MeshRenderer:
